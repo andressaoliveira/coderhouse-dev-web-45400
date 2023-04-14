@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+</head>
+
+<body>
+    <a href="https://www.coderhouse.com.br/" target="_blank">
+        <img src="../imagens/logo.png" alt="Logo da Coder House">
+    </a>
+    
+    <br><br><br>
+
+    <div id="links">
+        <a href="https://github.com/" target="_blank">Github</a>
+        <br>
+        <a href="#modo">Modo de preparo</a>
+        <br>
+        <a href="#tabela">Tabela</a>
+    </div>
+
+    <form id="formulario">
+        <br><br>
+        <select name="tamanhos">
+            <option value="G">Grande</option>
+            <option value="M">Médio</option>
+            <option value="P">Pequeno</option>
+        </select>
+
+        <br><br>
+        <div>
+            <span>Aceita termos e condições</span>
+            <input type="checkbox" name="acepta" value="1" />
+            <br><br>
+            <input type="checkbox" name="carne" value="1" /> Carne
+            <input type="checkbox" name="tomate" value="1" /> Tomate
+            <input type="checkbox" name="queijo" value="1" /> Queijo
+        </div>
+        <br><br>
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label for="nome_sobrenome">Nome:</label>
+            <input type="text" name="nome_sobrenome" />
+
+            <br>
+            <label>masculino</label>
+            <input type="radio" name="genero" value="masculino" />
+            <br>
+            <label>feminino</label>
+            <input type="radio" name="genero" value="feminino" />
+            <br>
+            <label>outro</label>
+            <input type="radio" name="genero" value="outro" />
+            <br><br>
+        </fieldset>
+
+        <div>
+            <span>manha</span>
+            <input type="radio" name="horario" value="m" />
+            <br>
+            <span>tarde</span>
+            <input type="radio" name="horario" value="t" />
+            <br>
+            <span>noite</span>
+            <input type="radio" name="horario" value="n" />
+        </div>
+
+        <br><br><br>
+        <input type="password">
+        <input type="number">
+        <br><br>
+        <textarea>Oi</textarea>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <button type="button">Botão</button>
+    </form>
+
+    <br><br><br>
+
+    <div id="tabela">
+        <table border>
+            <th>Cabeçalho 1</th>
+            <th></th>
+            <th></th>
+            <tr><!-- início da primeira linha-->
+                <td>Linha 1 - Coluna 1</td>
+                <td>Linha 1 - Coluna 2</td>
+                <td>Linha 1 - Coluna 3</td>
+            </tr><!-- final da primeira linha -->
+            <tr><!-- início da segunda linha-->
+                <td>Linha 2 - Coluna 1</td>
+                <td>Linha 2 - Coluna 2</td>
+                <td>Linha 2 - Coluna 3</td>
+            </tr><!-- final da segunda linha -->
+        </table>
+    </div>
+
+    <br><br><br>
+
+    <div id="listas">
+        <ul>
+            <li>
+                Linguagens de programação
+                <ol>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ol>
+            </li>
+
+            <li>
+                Linguagens de marcação:
+                <ul>
+                    <li>
+                        HTML
+                        <ul>
+                            <li>Tags</li>
+                        </ul>
+
+                    </li>
+                    <li>XML</li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+
+    <br><br><br>
+
+    <div id="receita">
+        <h1>Receita - Bolo de Chocolate</h1>
+
+        <h2>Ingredientes</h2>
+        <ul class="lista-ingredientes">
+            <li class="ingrediente">4 ovos</li>
+            <li class="ingrediente">4 colheres (sopa) de chocolate em pó</li>
+            <li class="ingrediente">2 colheres (sopa) de manteiga</li>
+            <li class="ingrediente">3 xícaras (chá) de farinha de trigo</li>
+            <li class="ingrediente">2 xícaras (chá) de açúcar</li>
+            <li class="ingrediente">2 colheres (sopa) de fermento</li>
+            <li class="ingrediente">1 xícara (chá) de leite</li>
+        </ul>
+
+        <h2 id="modo">Modo de Preparo</h2>
+        <ol>
+            <li>Em um liquidificador adicione os ovos, o chocolate em pó, a manteiga, a farinha de trigo, o açúcar e o
+                leite, depois bata por 5 minutos.</li>
+
+            <li>Adicione o fermento e misture com uma espátula delicadamente.</li>
+
+            <li> Em uma forma untada, despeje a massa e asse em forno médio (180 ºC) preaquecido por cerca de 40
+                minutos.
+                Não se esqueça de usar uma forma alta para essa receita: como leva duas colheres de fermento, ela cresce
+                bastante! Outra solução pode ser colocar apenas uma colher de fermento e manter a sua receita em uma
+                forma pequena.</li>
+        </ol>
+    </div>
+
+    <br><br><br>
+
+    <iframe width="657" height="370" src="https://www.youtube.com/embed/s30siratWYc"
+        title="Conheça a metodologia da Coderhouse" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+</body>
+
+</html>
