@@ -1,0 +1,50 @@
+/* * {
+    margin: 0;
+} */
+
+body h1 {
+    color: rgba(157, 39, 172, 0.479);
+}
+
+.textoAzul {
+    color: blue;
+}
+
+.textoDestacado {
+    font-size: 40px;
+    font-family: "Roboto";
+}
+
+a{
+    text-decoration: none;
+}
+
+#curso {
+    color: #abffab;
+}
+
+h3 {
+    color: red !important;
+}
+
+#lista{
+    list-style-type: lower-roman;
+}
+
+.textoItalicoNegrito{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textoNovaFonte{
+    font-family: Impact, Arial, Haettenschweiler, 'Arial Narrow Bold', textoNovaFontetextoNovaFontetextoNovaFontetextoNovaFontetextoNovaFontetextoNovaFontetextoNovaFontetextoNovaFontetextoNovaFonte;
+    text-align: right;
+    line-height: 1;
+    text-decoration: line-through;
+    background-color: aquamarine;
+}
+/* 
+body{
+    background-color: blue;
+} */
