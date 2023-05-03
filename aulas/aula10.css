@@ -1,0 +1,64 @@
+.menu {
+    margin: 20px 0;
+    list-style: none;
+}
+
+.menu__item {
+    display: inline-block;
+    width: 20%;
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    width: 100px;
+    background-color: lightblue;
+}
+
+.com-submenu:hover .submenu {
+    display: block;
+}
+
+
+
+
+.caixa {
+    background-color: aqua;
+    height: 250px;
+    margin: 10px 20px 100px 40px;
+    padding: 20px 50px;
+    border: dotted 5px black;
+    border-radius: 50px;
+}
+
+.caixa__texto {
+    background-color: orange;
+    width: 50%;
+}
+
+.awesome {
+    /* propriedades decorativas */
+    background-color: red;
+    font-size: 32px;
+    font-family: Arial;
+    /* propriedades que fazem o "problema" */
+    width: 100px;
+    height: 130px;
+    overflow: auto;
+
+    margin-top: 150px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.paragrafo {
+    background-color: yellow;
+    display: inline;
+}
+
+.parafrafo__destaque {
+    background-color: grey;
+    display: block;
+}
