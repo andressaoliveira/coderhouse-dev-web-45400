@@ -73,41 +73,41 @@ input[type="email"]:invalid {
     color: red;
 }
 
-input:required{
+input:required {
     background-color: pink;
 }
 
-input:disabled{
+input:disabled {
     background-color: gray;
 }
 
-#paragrafo::first-letter{
+#paragrafo::first-letter {
     font-size: 60px;
 }
 
-#paragrafo::first-line{
+#paragrafo::first-line {
     font-weight: bold;
     background-color: yellow;
 }
 
-#paragrafo::after{
+#paragrafo::after {
     content: " Final";
     color: aqua;
 }
 
-#paragrafo::before{
+#paragrafo::before {
     content: "Início ";
     color: aqua;
 }
 
-p::selection{
+p::selection {
     background-color: blueviolet;
 }
 
-.elemento::marker{
+.elemento::marker {
     color: blue;
 }
 
-input[type="text"]::placeholder{
+input[type="text"]::placeholder {
     color: brown;
 }
