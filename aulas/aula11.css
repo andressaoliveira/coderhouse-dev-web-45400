@@ -1,0 +1,115 @@
+.meu-titulo {
+    color: blueviolet;
+}
+
+.meu-titulo:hover {
+    color: orange;
+    background-color: brown;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.site-coder:visited {
+    color: aqua;
+    background-color: blueviolet;
+}
+
+.site-coder:active {
+    color: pink;
+    background-color: red;
+}
+
+#texto {
+    color: crimson;
+}
+
+#texto:focus {
+    color: chartreuse;
+    font-size: 20px;
+    background-color: bisque;
+}
+
+.item:first-child,
+.item:last-child {
+    color: lawngreen;
+}
+
+.elemento:not(.destaque) {
+    background-color: blanchedalmond;
+}
+
+/*pares*/
+.item:nth-child(2n) {
+    background-color: aquamarine;
+}
+
+/*impares*/
+.item:nth-child(odd) {
+    background-color: bisque;
+}
+
+p:first-of-type {
+    color: red;
+}
+
+option:checked {
+    color: red;
+    background-color: black;
+}
+
+input[type="checkbox"]:checked {
+    margin-left: 20px;
+}
+
+input[type="radio"]:checked {
+    margin-left: 30px;
+}
+
+input[type="radio"]:required {
+    margin-left: 30px;
+    accent-color: green;
+}
+
+input[type="email"]:valid {
+    color: green;
+}
+
+input[type="email"]:invalid {
+    color: red;
+}
+
+input:required{
+    background-color: pink;
+}
+
+#paragrafo::first-letter{
+    font-size: 60px;
+}
+
+#paragrafo::first-line{
+    font-weight: bold;
+    background-color: yellow;
+}
+
+#paragrafo::after{
+    content: " Final";
+    color: aqua;
+}
+
+#paragrafo::before{
+    content: "Início ";
+    color: aqua;
+}
+
+p::selection{
+    background-color: blueviolet;
+}
+
+::marker{
+    color: brown;
+}
+
+::placeholder{
+    color: aquamarine;
+    background-color: blueviolet;
+}
