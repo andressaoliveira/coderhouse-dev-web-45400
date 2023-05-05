@@ -57,16 +57,11 @@ option:checked {
     background-color: black;
 }
 
-input[type="checkbox"]:checked {
+input:checked {
     margin-left: 20px;
 }
 
 input[type="radio"]:checked {
-    margin-left: 30px;
-}
-
-input[type="radio"]:required {
-    margin-left: 30px;
     accent-color: green;
 }
 
@@ -80,6 +75,10 @@ input[type="email"]:invalid {
 
 input:required{
     background-color: pink;
+}
+
+input:disabled{
+    background-color: gray;
 }
 
 #paragrafo::first-letter{
@@ -105,11 +104,10 @@ p::selection{
     background-color: blueviolet;
 }
 
-::marker{
-    color: brown;
+.elemento::marker{
+    color: blue;
 }
 
-::placeholder{
-    color: aquamarine;
-    background-color: blueviolet;
+input[type="text"]::placeholder{
+    color: brown;
 }

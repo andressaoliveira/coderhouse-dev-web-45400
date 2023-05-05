@@ -37,46 +37,53 @@
             aspernatur voluptatibus est cumque aut laboriosam, odit quasi esse, reprehenderit ea in labore id quia?</p>
     </div>
 
+    <br><br>
     <form id="formulario">
-        <br><br>
-        <select name="tamanhos">
-            <option value="G">Grande</option>
-            <option value="M">Médio</option>
-            <option value="P">Pequeno</option>
-        </select>
-
-        <br><br>
-        <div>
-            <span>Aceita termos e condições</span>
-            <input type="checkbox" name="acepta" value="1" />
-            <br><br>
-            <input type="checkbox" name="carne" value="1" /> Carne
-            <input type="checkbox" name="tomate" value="1" /> Tomate
-            <input type="checkbox" name="queijo" value="1" /> Queijo
-        </div>
-        <br><br>
         <fieldset>
-            <label>masculino</label>
-            <input required type="radio" name="genero" value="masculino" />
-            <br>
-            <label>feminino</label>
-            <input required type="radio" name="genero" value="feminino" />
-            <br>
-            <label>outro</label>
-            <input required type="radio" name="genero" value="outro" />
+            <select name="tamanhos">
+                <option value="G">Grande</option>
+                <option value="M">Médio</option>
+                <option value="P">Pequeno</option>
+            </select>
+
+            <br><br>
+            <div>
+                <span>Aceita termos e condições</span>
+                <input required type="checkbox" name="acepta" value="1" />
+                <br><br>
+                <input type="checkbox" name="carne" value="1" /> Carne
+                <input type="checkbox" name="tomate" value="1" /> Tomate
+                <input type="checkbox" name="queijo" value="1" /> Queijo
+            </div>
             <br><br>
 
+            <div>
+                <input required type="radio" name="genero" value="masculino" />
+                <label>masculino</label>
+                <br>
+                <input required type="radio" name="genero" value="feminino" />
+                <label>feminino</label>
+                <br>
+                <input required type="radio" name="genero" value="outro" />
+                <label>outro</label>
+            </div>
+            <br><br>
 
             <label>Email</label>
             <input type="email" name="" id="" required>
-
+            <br>
             <label>Nome</label>
             <input type="text" name="" id="" placeholder="Escreva seu nome">
+            <br>
+            <label>Profissão:</label>
+            <input type="text" name="" id="" placeholder="Escreva sua profissão" disabled>
+            <br> <br>
             <input type="submit">
 
         </fieldset>
         <div>
-            <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis totam libero, commodi doloremque
+            <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis totam libero, commodi
+                doloremque
                 autem quis quia vitae inventore illo beatae quibusdam dignissimos accusamus? Eos voluptas, reprehenderit
                 quas temporibus obcaecati aliquam?</p>
         </div>
