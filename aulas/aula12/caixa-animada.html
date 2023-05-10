@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Animada</title>
+    <style>
+        div.animado {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: solid 1px;
+        }
+
+        div {
+            position: relative;
+            left: 200px;
+            top: 50px;
+        }
+
+        div:not(.animado) {
+            border: solid 1px;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 207px;
+            top: 57px;
+        }
+
+        @keyframes animacao {
+            from {}
+
+            to {
+                /* testar propriedades */
+                transform: skewY(25deg)
+            }
+        }
+
+        /* configuração inicial */
+        .animado {
+            animation: animacao 1s linear 2s infinite alternate;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="caixa-branca"></div>
+    <div class="caixa-vermelha animado"></div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+.gradiente {
+    width: 200px;
+    height: 200px;
+    /* background-image: linear-gradient(to bottom, red, blue); */
+    background-image: radial-gradient(green, pink, orange, red);
+}
+
+.transforma {
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform: translate(50px, 100px); */
+    transform: rotateX(45deg);
+    /* transform: scale(1,2); */
+    /* transform: skew(30deg, 20deg); */
+}
+
+.transicao {
+    width: 100px;
+    height: 100px;
+    transition: width 3s, height 2s;
+    /* transition: all 3s; */
+    background-color: aquamarine;
+}
+
+.transicao:hover {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+#animar {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    from {
+        color: blue;
+    }
+
+    to {
+        color: aqua;
+    }
+}
+
+.caixa-animada {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: um_efeito;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+@keyframes um_efeito {
+    0% {
+        width: 100px;
+    }
+
+    25% {
+        width: 300px;
+    }
+
+    50% {
+        width: 200px;
+        background-color: red;
+    }
+
+    75% {
+        width: 300px;
+    }
+
+    100% {
+        width: 100px;
+        background-color: green;
+    }
+
+}
