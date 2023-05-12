@@ -1,0 +1,12 @@
+#pagina {
+    display: flex;
+    background-color: red;
+}
+
+nav {
+    background-color: aqua;
+}
+
+main {
+    background-color: lawngreen;
+}
