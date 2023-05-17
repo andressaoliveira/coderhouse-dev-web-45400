@@ -1,0 +1,48 @@
+.grid{
+    display: grid;
+    grid-template-columns: 50px repeat(5, 1fr) 30px;
+    grid-template-rows: repeat(12, 1fr);
+
+    /* grid-template-columns: 100px auto 300px;
+    grid-template-rows: 3fr 1fr; */
+    column-gap: 10px;
+    row-gap: 20px;
+    padding-bottom: 200px;
+}
+
+#grade{
+    display: grid;
+    grid-template-columns: 20% auto 15%;
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-areas: 
+    "nav header header"
+    "nav produtos publicidade"
+    "nav servicos publicidade"
+    ". footer footer";
+    gap: 10px;
+}
+
+header{
+    grid-area: header;
+}
+footer{
+    grid-area: footer;
+    background-color: aqua;
+}
+#produtos{
+    grid-area: produtos;
+}
+#servicos{
+    grid-area: servicos;
+}
+nav{
+    grid-area: nav;
+}
+
+aside{
+    grid-area: publicidade;
+}
+
+.border{
+    border: 2px solid green;
+}
