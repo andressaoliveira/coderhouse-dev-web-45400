@@ -1,12 +1,39 @@
 #pagina {
     display: flex;
-    background-color: red;
+    background-color: yellowgreen;
+    flex-direction: row;
+    padding: 10px;
 }
 
 nav {
-    background-color: aqua;
+    background-color: orangered;
+    width: 20%;
+}
+
+header, footer{
+    height: 80px;
 }
 
 main {
-    background-color: lawngreen;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+#container {
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+}
+
+article {
+    background-color: blueviolet;
+    width: 70%;
+}
+
+aside {
+    background-color: orange;
+    width: 30%;
 }
