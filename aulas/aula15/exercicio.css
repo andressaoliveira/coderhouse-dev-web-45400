@@ -1,0 +1,83 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 50px);
+    grid-template-areas: 
+    "header" "content" "content" "sign-up" "laranja" "vermelha" "roxa";
+}
+
+header{
+    grid-area: header;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    grid-area: content;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up{
+    grid-area: sign-up;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature-laranja{
+    grid-area: laranja;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature-vermelha{
+    grid-area: vermelha;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature-roxa{
+    grid-area: roxa;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "header header"
+        "content content"
+        "content content"
+        "sign-up laranja"
+        "vermelha roxa"
+        ;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "header header header"
+        "header header header"
+        "laranja roxa vermelha"
+        "laranja roxa vermelha"
+        "sign-up sign-up sign-up"
+        "content content content"
+        "content content content"
+        ;
+    }
+}
