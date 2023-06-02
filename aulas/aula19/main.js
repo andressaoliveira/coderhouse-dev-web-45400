@@ -17,7 +17,7 @@ console.log("Resultado da Multiplicação: ", multiplicacao)
 
 
 
-// CONDICIONAL
+/* **********CONDICIONAL********** */
 let sorvete = "flocos"
 
 if (sorvete == "chocolate") {
@@ -32,7 +32,7 @@ else {
 
 
 
-// FUNÇÃO
+/* **********FUNÇÃO********** */
 function subtracao(numero1, numero2) {
     if (numero1 > numero2) {
         let resultado = numero1 - numero2
@@ -51,7 +51,7 @@ console.log("sub4e7: ", sub4e7)
 
 
 
-//ARRAY
+/* **********ARRAY********** */
 let meuArray = [1, 2, 3, 4];
 meuArray.pop();
 meuArray.push(5);
@@ -64,7 +64,7 @@ console.log(nomesArray[1]);
 
 
 
-//OBJETO
+/* **********OBJETO********** */
 const meuPrimeiroNome = "Andressa"
 const meuEndereco = "Belo Horizonte"
 
@@ -82,7 +82,7 @@ console.log("arraySubtracoes: ", arraySubtracoes)
 
 
 
-//AARAY DE OBJETO
+/* **********AARAY DE OBJETO********** */
 let maca = {
     nome: "maçã",
     cor: "vermelha",
