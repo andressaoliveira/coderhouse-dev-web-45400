@@ -11,7 +11,7 @@ soma = numero1 + numero2
 multiplicacao = numero1 * numero2
 
 // alert(resultado + soma)
-//console.log("Resultado da Multiplicação: ", multiplicacao)
+console.log("Resultado da Multiplicação: ", multiplicacao)
 
 
 
@@ -46,8 +46,8 @@ function subtracao(numero1, numero2) {
 let sub10e7 = subtracao(10, 7)
 let sub4e7 = subtracao(4, 7)
 
-console.log(sub10e7)
-console.log(sub4e7)
+console.log("sub10e7: ", sub10e7)
+console.log("sub4e7: ", sub4e7)
 
 
 
@@ -58,7 +58,7 @@ meuArray.push(5);
 let nomesArray = ["Jacqueline", "Sophia", "Amanda"];
 
 
-console.log(meuArray);
+console.log("meuArray: ", meuArray);
 console.log(nomesArray[1]);
 
 
@@ -73,10 +73,10 @@ let pessoa = {
     endereco: meuEndereco
 }
 
-console.log(pessoa)
+console.log("pessoa: ",pessoa)
 
 let arraySubtracoes = [sub10e7, sub4e7]
-console.log(arraySubtracoes)
+console.log("arraySubtracoes: ", arraySubtracoes)
 
 
 
@@ -86,8 +86,8 @@ console.log(arraySubtracoes)
 let maca = {
     nome: "maçã",
     cor: "vermelha",
-    peso: 4,
-    altura: 3,
+    peso: 1,
+    altura: 2,
     tipo: "fruta"
 }
 
@@ -102,18 +102,17 @@ let alface = {
 let cenoura = {
     nome: "cenoura",
     cor: "laranja",
-    peso: 4,
-    altura: 3,
+    peso: 5,
+    altura: 6,
     tipo: "legume"
 }
 
-let alimentos = [maca, alface, cenoura];
+let alimentos = [maca, alface];
 
-alimentos.push(maca)
-alimentos.push(alface)
+alimentos.push(cenoura)
 
-console.log(alimentos)
-console.log(alimentos[1].tipo, alimentos[1].cor)
+console.log("alimentos:", alimentos)
+console.log(alimentos[1].tipo, alimentos[2].cor)
 
 alimentos.forEach(
     elemento => {
@@ -132,7 +131,7 @@ function somatorio(valores) {
         index++;
     }
 
-    console.log(resultado);
+    console.log("somatorio: ", resultado);
 }
 
 somatorio(numeros);
