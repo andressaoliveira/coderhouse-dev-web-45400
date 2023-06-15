@@ -5,10 +5,10 @@ let tarefas = [];
 let botaoEnviar = document.getElementById("enviar")
 botaoEnviar.addEventListener("click", acaoEnviar)
 
-let entrada = document.getElementById("entrada");
-
 function acaoEnviar() {
+    let entrada = document.getElementById("entrada")
     tarefas.push(entrada.value)
+    entrada.value = ""
 }
 
 
@@ -27,5 +27,5 @@ botaoLimpar.addEventListener("click", acaoLimpar)
 
 function acaoLimpar() {
     tarefas = [];
-    console.log(tarefas);
+    acaoVisualizar()
 }
