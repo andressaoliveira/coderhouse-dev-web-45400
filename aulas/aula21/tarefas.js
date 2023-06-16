@@ -1,4 +1,4 @@
-let tarefas = [];
+let tarefas = []; // 0 1 2
 
 
 //inserir dados no array
@@ -18,6 +18,13 @@ botaoVisualizar.addEventListener("click", acaoVisualizar)
 
 function acaoVisualizar() {
     console.log(tarefas)
+    let resultado = document.getElementById("resultado")
+    resultado.innerText = ""
+    for (let i = 0; i < tarefas.length; i++){
+        let elemento = document.createElement("li")
+        elemento.innerText = tarefas[i]       
+        resultado.append(elemento)
+    }
 }
 
 
