@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 23</title>
+    <link rel="stylesheet" href="aula23.css">
+</head>
+
+<body>
+    <div id="conteudo">
+        <h1>Aula 23</h1>
+        <br><br>
+
+        <h2>Cores</h2>
+        <p>Faça um botão que ao ser clicado muda a cor de fundo da sua página.</p>
+        <button onclick="mudarCor()">Mudar cor</button>
+        <br>
+        <hr><br>
+
+        <h2>Incremento</h2>
+        <p>Faça uma funcionalidade que possui um campo que contenha um valor inicial 5 e insira dois botões: um para
+            somar e outro subtrair, que vão alterar esse valor. Não deixe ultrapassar os limites 0 e 5</p>
+        <button onclick="decrementar()">-</button>
+        <span id="valor-incremento">5</span>
+        <button onclick="incrementar()">+</button>
+        <br>
+        <hr><br>
+
+        <h2>Divisível</h2>
+        <p>Crie uma funcionalidade que recebe dois números e verifica se o primeiro número é ou não divisível pelo
+            segundo número.</p>
+        <input type="number" id="numero1">
+        <input type="number" id="numero2">
+        <button onclick="ehDivisivel()">Verificar</button>
+        <br>
+        <span id="resultado-divisivel"></span>
+        <br>
+        <hr><br>
+
+        <h2>Mês</h2>
+        <p>Receba um número aleatório da tela. Se este número estiver entre 1 e 12, deve exibir o nome do mês
+            correspondente. Se for digitado um número fora desta faixa, imprimir a mensagem: “valor de mês incorreto”.
+        </p>
+        <span>Digite um número:</span>
+        <input type="number" id="numero-mes">
+        <button onclick="verificarMes()">Verificar</button>
+        <br>
+        <span id="resultado-mes"></span>
+        <br>
+        <hr><br>
+
+        <h2>Contador</h2>
+        <p>Faça um sistema que receba uma frase, calcule e mostre em tempo real a quantidade de palavras da frase
+            digitada.
+        </p>
+        <input type="text" id="frase" onkeydown="contarPalavras()">
+        <br>
+        <span id="resultado-contador"></span>
+        <br><br>
+    </div>
+    <script src="aula23.js"></script>
+
+</body>
+
+</html>
